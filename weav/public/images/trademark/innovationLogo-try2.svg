@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="640" height="480">
+    <desc iVinci="yes" version="4.6" gridStep="3" showGrid="yes" snapToGrid="yes" codePlatform="0"/>
+    <g id="Layer1" name="Layer 1" opacity="1">
+        <g id="Shape1">
+            <desc shapeID="1" type="0" basicInfo-basicType="2" basicInfo-roundedRectRadius="12" basicInfo-polygonSides="6" basicInfo-starPoints="5" bounding="rect(-199,-189,398,378)" text="" font-familyName="Kaiti SC" font-pixelSize="20" font-bold="0" font-underline="0" font-alignment="1" strokeStyle="0" markerStart="0" markerEnd="0" shadowEnabled="0" shadowOffsetX="0" shadowOffsetY="2" shadowBlur="4" shadowOpacity="160" blurEnabled="0" blurRadius="4" transform="matrix(1,0,0,1.05291,299.5,219.5)" pers-center="0,0" pers-size="0,0" pers-start="0,0" pers-end="0,0" locked="0" mesh="" flag=""/>
+            <path id="shapePath1" d="M100.5,33.1349 C100.5,26.1568 105.873,20.5 112.5,20.5 L486.5,20.5 C493.127,20.5 498.5,26.1568 498.5,33.1349 L498.5,405.865 C498.5,412.843 493.127,418.5 486.5,418.5 L112.5,418.5 C105.873,418.5 100.5,412.843 100.5,405.865 L100.5,33.1349 Z" style="stroke:#0f55c1;stroke-opacity:1;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:2;stroke-linecap:round;fill-rule:evenodd;fill:#ffffff;fill-opacity:1;"/>
+        </g>
+    </g>
+    <g id="Layer2" name="Layer 2" opacity="1">
+        <g id="Shape2">
+            <desc shapeID="2" type="0" basicInfo-basicType="0" basicInfo-roundedRectRadius="12" basicInfo-polygonSides="6" basicInfo-starPoints="5" bounding="rect(-54.1267,-44.2501,108.253,88.5002)" text="" font-familyName="Kaiti SC" font-pixelSize="20" font-bold="0" font-underline="0" font-alignment="1" strokeStyle="0" markerStart="0" markerEnd="0" shadowEnabled="0" shadowOffsetX="0" shadowOffsetY="2" shadowBlur="4" shadowOpacity="160" blurEnabled="0" blurRadius="4" transform="matrix(3.32553,0,0,3.61581,300.5,220.5)" pers-center="0,0" pers-size="0,0" pers-start="0,0" pers-end="0,0" locked="0" mesh="" flag=""/>
+            <path id="shapePath2" d="M300.501,60.5 L390.501,220.5 L480.5,380.5 L300.5,380.499 L120.5,380.497 L210.501,220.498 L300.501,60.5 Z" style="stroke:#0d47a1;stroke-opacity:0.352941;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:2;stroke-linecap:round;fill-rule:evenodd;fill:#009cff;fill-opacity:0.556863;"/>
+        </g>
+    </g>
+    <g id="Layer3" name="Layer 3" opacity="1">
+        <g id="Shape3">
+            <desc shapeID="3" type="0" basicInfo-basicType="0" basicInfo-roundedRectRadius="12" basicInfo-polygonSides="6" basicInfo-starPoints="5" bounding="rect(-42.0023,-39.0001,84.0046,78.0002)" text="" font-familyName="Kaiti SC" font-pixelSize="20" font-bold="0" font-underline="0" font-alignment="1" strokeStyle="0" markerStart="0" markerEnd="0" shadowEnabled="0" shadowOffsetX="0" shadowOffsetY="2" shadowBlur="4" shadowOpacity="160" blurEnabled="0" blurRadius="4" transform="matrix(-1.69919,4.86397e-05,-5.18365e-05,-1.81104,301.128,130.871)" pers-center="0,0" pers-size="0,0" pers-start="0,0" pers-end="0,0" locked="0" mesh="" flag=""/>
+            <path id="shapePath3" d="M301.13,201.502 L265.443,130.873 L229.756,60.2429 L301.126,60.2412 L372.496,60.2399 L336.812,130.871 L301.13,201.502 Z" style="stroke:#a10007;stroke-opacity:1;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:2;stroke-linecap:round;fill-rule:evenodd;fill:#ff0408;fill-opacity:1;"/>
+        </g>
+        <g id="Shape4">
+            <desc shapeID="4" type="0" basicInfo-basicType="2" basicInfo-roundedRectRadius="12" basicInfo-polygonSides="6" basicInfo-starPoints="5" bounding="rect(-182.239,-23.5037,364.477,47.0074)" text="" font-familyName="Kaiti SC" font-pixelSize="20" font-bold="0" font-underline="0" font-alignment="1" strokeStyle="0" markerStart="0" markerEnd="0" shadowEnabled="0" shadowOffsetX="0" shadowOffsetY="2" shadowBlur="4" shadowOpacity="160" blurEnabled="0" blurRadius="4" transform="matrix(1.03292,0,0,1,299.739,357.004)" pers-center="0,0" pers-size="0,0" pers-start="0,0" pers-end="0,0" locked="0" mesh="" flag=""/>
+            <path id="shapePath4" d="M111.5,345.5 C111.5,338.873 117.049,333.5 123.895,333.5 L475.582,333.5 C482.428,333.5 487.977,338.873 487.977,345.5 L487.977,368.507 C487.977,375.135 482.428,380.507 475.582,380.507 L123.895,380.507 C117.049,380.507 111.5,375.135 111.5,368.507 L111.5,345.5 Z" style="stroke:#00a10e;stroke-opacity:1;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:2;stroke-linecap:round;fill-rule:evenodd;fill:#00b527;fill-opacity:1;"/>
+        </g>
+    </g>
+    <g id="Layer4" name="Layer 4" opacity="1"/>
+    <g id="Layer5" name="Layer 5" opacity="1">
+        <g id="Shape5">
+            <desc shapeID="5" type="0" basicInfo-basicType="2" basicInfo-roundedRectRadius="12" basicInfo-polygonSides="6" basicInfo-starPoints="5" bounding="rect(-24.5256,-78.3456,49.0511,156.691)" text="" font-familyName="Kaiti SC" font-pixelSize="20" font-bold="0" font-underline="0" font-alignment="1" strokeStyle="0" markerStart="0" markerEnd="0" shadowEnabled="0" shadowOffsetX="0" shadowOffsetY="2" shadowBlur="4" shadowOpacity="160" blurEnabled="0" blurRadius="4" transform="matrix(1.22321,0,0,0.823275,300.5,284)" pers-center="0,0" pers-size="0,0" pers-start="0,0" pers-end="0,0" locked="0" mesh="" flag=""/>
+            <path id="shapePath5" d="M270.5,229.379 C270.5,223.923 277.072,219.5 285.179,219.5 L315.821,219.5 C323.928,219.5 330.5,223.923 330.5,229.379 L330.5,338.621 C330.5,344.077 323.928,348.5 315.821,348.5 L285.179,348.5 C277.072,348.5 270.5,344.077 270.5,338.621 L270.5,229.379 Z" style="stroke:#0d47a1;stroke-opacity:0.352941;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:2;stroke-linecap:round;fill-rule:evenodd;fill:#009cff;fill-opacity:1;"/>
+        </g>
+    </g>
+</svg>
