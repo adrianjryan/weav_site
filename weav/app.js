@@ -7,7 +7,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 //var session = require('express-session');
 
-
 var routes = require('./routes');
 
 //var routes = require('./routes/index');
@@ -66,9 +65,8 @@ app.use(function(err, req, res, next) {
 
 
 //lets create a server in app.j for easy AWS ELB deployment
-server.listen(8081, function () {
-  //console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
+server.listen(app.get('port'), function () {
+  console.log('Express server listening on %d, in %s mode', app.get('port'), app.get('env'));
 });
-
 
 module.exports = app;
