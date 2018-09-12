@@ -1,8 +1,13 @@
+//font-family: 'Cabin Sketch', cursive;
+//font-family: 'Open Sans', sans-serif;
+//font-family: 'Special Elite', cursive;
+//font-family: 'Amatic SC', cursive;
+//font-family: 'Coming Soon', cursive;
+
 body {
-  //padding: 50px;
-  //font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 50px;
   overflow-x: hidden;
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .text-muted {
@@ -17,8 +22,25 @@ body {
     color: #ffffff;
 }
 
+.text-highlight {
+    color: #8bc3e2;
+}
+
+.text-bright {
+    color: #e4a51f;
+}
+
+.text-dark {
+    color: #909090;
+}
+
+.text-handtext {
+    font-family: 'Coming Soon', cursive;
+}
+
 
 p {
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 1.75;
 }
@@ -47,16 +69,35 @@ a.active {
 }
 
 
-h1,
-h2,
-h3,
-h4,
+h1,{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+h2{
+    font-family: 'Cabin Sketch', cursive;
+},
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 300;
+},
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 500;
+
+},
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    //font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
+
+
 
 .img-centered {
     margin: 0 auto;
@@ -189,7 +230,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand img{
     position: absolute;
-    top: 0px;
+    top: 10px;
     margin: 0 auto;
     //padding:  0;
     //border: 7px solid #fff;
@@ -228,7 +269,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     //text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    //font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', sans-serif;`  
     font-weight: 400;
     letter-spacing: 1px;
     //color: #fff;
@@ -254,10 +296,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+    .container{
+        max-width: 1200px;
+    }
     .navbar-default {
         padding: 10px 0;
         border: 0;
-        //background-color: transparent;
+        background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -278,9 +323,9 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {//background while scrolled up
         padding: 10px 0;
-//        background-color: #222;
+        //background-color: #222;
         background-color: #fff;
-        opacity: 0.90;
+        //opacity: 1.0;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -292,13 +337,14 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../images/header/weav-2.jpg);
+    //background-image: url(../images/header/create-header-3.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    padding-top: 70px;
 }
 
 header .intro-text {
@@ -308,7 +354,8 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    //font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Cabin Sketch', cursive;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -317,7 +364,8 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     //text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    //font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Cabin Sketch', cursive;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -325,8 +373,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 100px;
+        padding-bottom: 60px;
     }
 
     header .intro-text .intro-lead-in {
@@ -340,7 +388,8 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         //text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        //font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: 'Cabin Sketch', cursive;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -352,6 +401,7 @@ section {
 }
 
 section h2.section-heading {
+    font-family: 'Cabin Sketch', cursive;   
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
@@ -360,15 +410,53 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Coming Soon', cursive;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
+section h3.section-subheading std {
+    font-style: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+section h3.section-subheading highlight {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+section h4.section-detail {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Open Sans', sans-serif;
+    //font-family: 'Cabin Sketch', cursive;
+    font-size: 16px;
+    //font-weight: 300;
+}
+
+
+section h4.section-detail std {
+    font-style: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+section h4.section-detail highlight {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: 'Coming Soon', cursive;
+    color: #8bc3e2;
+}
+
+
+
+
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -440,7 +528,8 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    //font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Coming Soon', cursive;
     font-size: 16px;
     font-style: italic;
 }
@@ -680,9 +769,43 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section#whois {
+    background-color: #fff;
+    //background-image: url(../images/header/analogue-blur-classic-164828.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#workshop {
+    background-color: #fff;
+    background-image: url(../images/header/analogue-blur-classic-164828.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section#about_header {
+    background-color: #fff;
+    background-image: url(../images/team/adolescent-adult-blur-933964.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section#consultant_header {
+    background-color: #909090;
+    background-image: url(../images/banner/adrian-ryan-banner.png);
+    background-position: left;
+    //background-size: 20em;
+    background-repeat: no-repeat;
+}
+
+section#partner {
+    background-color: #fff;
+}
+
 section#contact {
-    //background-color: #222;
-    background-color: #7b7b7b;
+    background-color: #909090;
     //background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -910,3 +1033,97 @@ map-canvas {
         width: 200px;
         height: 300px;
       }
+
+section#skills {
+    background-color: #fff;
+}
+
+section#skills .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+}
+
+/* Create four equal columns that sits next to each other */
+section#skills .column {
+  flex: 25%;
+  max-width: 25%;   
+  padding: 0 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+section#skills .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0 0px;
+}
+
+section#skills img {
+  margin-top: 0px;
+  vertical-align: middle;
+  text-align: center;
+  max-height: 0%;
+
+}
+
+section#skills .card_desc {
+    padding: 0 16px;
+}
+
+section#skills .card_desc::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  section#skills .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  section#skills .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+section#success img {
+  vertical-align: right;
+  text-align: right;
+  max-width: 30%;
+}
+
+
+section#client-highlights .container {
+   vertical-align: center;
+    }
+
+section#client-highlights div.img-container {
+   height: 10em;
+   position: relative;
+   vertical-align: center;
+    }
+
+section#client-highlights img {
+  position: absolute;               /* 2 */
+  top: 50%;                         /* 3 */
+  transform: translate(0, -50%);
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+section#skills-list i {
+    color: #ffc107;
+}
+
+section#skills-list i.open {
+    color: #E0E0E0;
+}

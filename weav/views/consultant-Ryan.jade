@@ -1,0 +1,379 @@
+extends layout
+
+block content 
+	header
+	section(id="consultant_header")
+		div.container
+			div.row
+				div.col-md-12.text-center
+					h1.section-detail.intro-text.text-inverse Dr Adrian Ryan
+					h2.section-detail.intro-text.text-inverse Snr Consultant / Fractional IT Director
+					h3.section-detail.intro-text.text-inverse Consultant Brief
+
+	body(id="page-top" class="index")
+		nav.navbar.navbar-default.navbar-fixed-top
+			div.container
+				div.navbar-header.page-scroll
+					button(type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
+						span.sr-only Toggle navigation
+						span.icon-bar  
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand(href="/")
+						img(src='images/trademark/weav-logo.png') 
+
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				ul.nav.navbar-nav.navbar-right
+					li.hidden
+						a(href="#page-top")
+					li
+						a(href="consultant-Ryan") Consulant Brief
+					li
+					//	a.page-scroll(href="/#services") Services
+					//li
+					//	a(href="#") About
+					// li
+					// 	a.page-scroll(href="/#contact") Contact
+				</div>
+
+
+	section(id="about_weav")
+		div.container				
+			div.row
+				div.col-md-4.text-center
+					img(src='images/team/who_are_we.jpg', width='70%')
+				div.col-md-8.text-justify
+					h1.section-heading.text-primary  
+					p.text-muted 
+						| With over 10 years experience Adrian is a proven leader of solutions, strategy and team establishment.   Adrian holds the rare quality combination of advanced client facing qualities and high technical knowledge allowing him to quickly assess situations, determine gap analysis, idealise a solution strategy and communicate appropriately with client teams.   Adrian has setup and managed multi national geographically distributed teams, in Australia, Singapore, Kuala Lumpur, Hong Kong and China introducing financial and strategic advantages to business as a result.  As one of our most SNR Consultants, and founder of Weav, Adrian brings more than just technical skills and solution documentation when working with clients driving their business forward.  Adrian has successfully led many projects in a large variety of industries with solutions ranging from architecture design, startups implementation, data science and analytics, marketing technical strategy, aerospace software` and global integration systems. He is a proven and effective leader and mentor of other consultants and internal client teams, understanding different priorities and drivers.
+					p.text-highlight.text-center
+						| “I love what I do, I get to work with brilliant people and teams on their toughest challenges, and together we push the thought envelope on our way to creating amazing solutions.”
+			div.row
+				div.col-md-12.text-center
+					p.text-primary 
+						<b>Studies:</b> PhD, B.NetComp(Hons), B.Comp(AppDev)
+					h3
+						a(href="assets/AdrianRyan-Resume-2018.pdf") Download Adrian's Full Resume
+
+
+
+	section(id="success")
+			div.container
+				div.row
+					div.col-md-12
+						h2 Success Stories
+				div.row
+					div.col-md-4
+						img(src='images/logos/crown-logo.png')
+					div.col-md-8
+						p.text-muted.text-justify
+								| Crown Resorts began the reshaped their Marketing Data Management Systems in 2016 to ensure relevant and strategic communications throughout all sites.  As the lead consultant, later continuing while CTO at Kalido, Adrian designed and developed an onsite data science, integration and marketing platform that provided Crown with an ability to holistically and automatically delivery strategic messages to customers and execute Data Science models injecting value back to marketing and the core Crown Data Warehouse.
+				div.row
+					div.col-md-4
+						img(src='images/logos/Tigerair.svg.png')
+					div.col-md-8
+						p.text-muted.text-justify
+								| During 2015/16 Adrian‘s consulting work for Tigerair designed and develop their new communication and data science platform for itinerary delivery and marketing.  This greenfields initiative required continual analytics and architecture. With Tigerair having a fluid vision, minimal experience and a multi vendor setup, Adrian’s ongoing consultation and skills ensured the itinerary system was up and ready for launch.
+				div.row
+					div.col-md-4
+						img(src='images/logos/Logo_Telekom_Malaysia.svg.png')
+					div.col-md-8
+						p.text-muted.text-justify
+								| In 2017 through 2018 Telekom Malaysia began a rapid change management of structure, offerings and digital landscape.  As technical expert and CTO for Kalido (Asia and AU) Adrian consulted to design TMs Data migration and integration of aging Data strategy and enterprise.  Adrian's onsite presence ensured communication was smooth and delivery successful, brining forth a new capability for Data driven marketing initiatives.  
+				div.row
+					div.col-md-4
+						img(src='images/logos/kalido-logo.png')
+					div.col-md-8
+						p.text-muted.text-justify
+								| Positioned as CTO during extreme growth Adrian lead the expansion of the technical team and strategic position of Kalido into the South East Asia Market from 2016/17.  Working with General Manager Asia and CEO he successfully established techncail capablities in Singapore and foundationed a partner position with regional Salesforce and key clients.
+				div.row
+					div.col-md-4
+						img(src='images/logos/toyota-logo.png')
+					div.col-md-8
+						p.text-muted.text-justify
+								| The Global Parts and Management System of Toyota was an international initiative to streamline parts delivery throughout manufacturing plants.  Adrian led, designed and developed the Australian solution, ensuring seamless integration and timely deployment.  This lead to a success live stage and further work with Asia countries on regional solutions.
+				div.row
+					div.col-md-4
+						img(src='images/logos/foxtel-logo-text.svg', width="200px")
+					div.col-md-8
+						p.text-muted.text-justify
+								| Foxtel undertook a full repositioning of their Marketing Automation systems and Data Platforms.  Adrin worked with Foxtel and Salesforce, architecting a solution to accommodate for their complex data structures and real time requirements.  With the resulting solution Foxtel now communicate to Customers and Leads using one-to-one data driven strategies which has lead to greater customer engagement and satisfaction.
+
+	section(id="skills-list")
+		div.container
+			div.row
+				div.col-md-12
+					h3
+						| Skill Measures
+			div.row
+				div.col-md-4
+					p.text-muted
+						| Client and Vendor Management
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star-o.fa-stack-2x.open
+				div.col-md-1
+					i.fa.fa-star-o.fa-stack-2x.open
+				div.col-md-2
+					p.text-muted.left
+						| 7 yrs
+				div.col-md-2 
+			div.row
+				div.col-md-4
+					p.text-muted.left
+						| Discovery Sessions, Workshops, & Seminars
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-2
+					p.text-muted.left
+						| 15 yrs
+				div.col-md-2
+			div.row
+				div.col-md-4
+					p.text-muted.left
+						| Strategy (Tech, Data and Digital)
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star-o.fa-stack-2x.open
+				div.col-md-2
+					p.text-muted.left
+						| 8 yrs
+				div.col-md-2  
+			div.row
+				div.col-md-4
+					p.text-muted.left
+						| Gap Analysis and Problem Solving
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-2
+					p.text-muted.left
+						| 15 yrs
+				div.col-md-2 
+			div.row
+				div.col-md-4
+					p.text-muted.left
+						| Solution & Technical Architecture
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x.
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star-o.fa-stack-2x.open
+				div.col-md-2
+					p.text-muted.left
+						| 10 yrs
+				div.col-md-2
+			div.row
+				div.col-md-4
+					p.text-muted.left
+						| Analytics
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star-o.fa-stack-2x.open
+				div.col-md-1
+					i.fa.fa-star-o.fa-stack-2x.open
+				div.col-md-2
+					p.text-muted.left
+						| 15 yrs
+				div.col-md-2 
+			div.row
+				div.col-md-4
+					p.text-muted.left
+						| Team Structure
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star-o.fa-stack-2x.open
+				div.col-md-2
+					p.text-muted.left
+						| 11 yrs
+				div.col-md-2 
+			div.row
+				div.col-md-4
+					p.text-muted.left
+						| Project, Process Management
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star-o.fa-stack-2x.open
+				div.col-md-1
+					i.fa.fa-star-o.fa-stack-2x.open
+				div.col-md-2
+					p.text-muted.left
+						| 7 yrs
+				div.col-md-2 
+			div.row
+				div.col-md-4
+					p.text-muted.left
+						| Delivery Process
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star.fa-stack-2x
+				div.col-md-1
+					i.fa.fa-star-o.fa-stack-2x.open
+				div.col-md-2
+					p.text-muted.left
+						| 15 yrs
+				div.col-md-2 
+
+
+	section(id="client-highlights")
+			div.container
+				div.row
+					div.col-md-12
+					h3 
+						| Client Highlights
+				div.row
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/crown-logo.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/foxtel-logo-text.svg', width='100%')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/2015sf-marketingcloud-logo-rgb-copy.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/kalido-logo.png')
+				div.row
+					div.col-md-3
+						div.img-container 
+							img(src='images/logos/toyota-logo.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/Tigerair.svg.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/sony-logo.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/DSTO-logo.jpg')
+				div.row
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/ABC_Australia_logo.png', height="80%")
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/mercer-logo.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/luxasia-logo.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/monash-logo.png')
+
+	section(id="client-highlights")
+			div.container
+				div.row
+					div.col-md-12
+					h3 
+						| Capabilities Highlights
+				div.row
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/googlecloud.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/java-logo.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/python.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/C++_Logo.png')
+				div.row
+					div.col-md-3
+						div.img-container 
+							img(src='images/logos/API-logo.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/2x-AWS.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/1200px-MySQL.svg.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/2015sf-marketingcloud-logo-rgb-copy.png')
+				div.row
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/CSM_ConceptsR2-04.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/MuleSoft_logo_299C.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/1200px-Postgresql_elephant.svg.png')
+					div.col-md-3
+						div.img-container
+							img(src='images/logos/PRINCE2-LOGO.png')
+	
+
+	footer
+			div.container
+				div.row
+					div.col-md-12.text-right
+						span.copyright Weav Solutions &copy; 2018
+
+		script(src="javascripts/jquery.js")
+		script(src="bootstrap/js/bootstrap.min.js")
+		script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
+		script(src="javascripts/classie.js")
+		script(src="javascripts/cbpAnimatedHeader.js")
+		script(src="javascripts/jqBootstrapValidation.js")
+		script(src="javascripts/agency.js")
+
