@@ -1,0 +1,180 @@
+extends layout
+
+block content
+
+	body(id="page-top" class="index")
+		div.container
+			nav.navbar.navbar-expand-lg.navbar-light.bg-faded
+				a.navbar-brand(href="/")
+						img(src='images/trademark/weav-logo.png')
+				button.navbar-toggler(type="button" data-toggle="collapse" data-target="#menuToggle" aria-controls="menuToggle" aria-expanded="false" aria-label="Navigation")
+					span.navbar-toggler-icon
+				div.collapse.navbar-collapse(id="menuToggle")
+					ul.navbar-nav.ml-auto
+						li.nav-item.active
+							a.nav-link(href="consultant-Ryan").text-muted.text-right Consultant Brief
+								span.sr-only (current)
+
+		section(id="main_header")						
+			div(id="Hcarousel" class="carousel slide" data-ride="carousel")
+					ol(class="carousel-indicators")
+						li(data-target="#Hcarousel" data-slide-to="0" class="active")
+						li(data-target="#Hcarousel" data-slide-to="1")
+						li(data-target="#Hcarousel" data-slide-to="2")
+					div(class="carousel-inner")
+						div(class="carousel-item active")
+							img(src='images/banner/access-blur-bowl-744461.jpg', class="d-block w-100")
+							div(class="carousel-caption")
+								div.row
+									div.col-md-12.text-center
+										h1.text-inverse Trusted Results
+										h3.d-none.d-sm-none.d-md-block The Weav team have been applying our simply processes for phenominal success for years.
+						div(class="carousel-item")
+							img(src='images/banner/arrows-box-business-533189.jpg', class="d-block w-100")
+							div(class="carousel-caption")
+								div.row
+									div.col-md-12.text-center
+										h1.text-inverse Data Driven Approach
+										h3.d-none.d-sm-none.d-md-block Weav complete the picture for data driven, custmer centric solutions
+						div(class="carousel-item")
+							img(src='images/banner/adult-beanie-brainstorming-7367.jpg', class="d-block w-100")
+							div(class="carousel-caption")
+								div.row
+									div.col-md-12.text-center
+										h1.text-inverse Team Work
+										h3.d-none.d-sm-none.d-md-block Weav your work through focused workshops, training and discovery sessions with our specilised consultants.
+
+
+		//header
+
+
+		//section(id="whois")
+		//	div.container
+		//		div.row
+		//			div.col-md-6.text-center
+		//				h1.section-detail.text-primary Weav is a Data Design, Solutions & Process Consulting Agency.    
+		//			div.col-md-6.text-left
+		//				h4.section-detail.text-muted.intro-text 
+							//img(src='images/drawn/vision-to-success.png') 
+		
+		section(id="services")
+			div.container
+				div.row
+					div.col-lg-12.text-center
+						h1.section-heading Data Driven Solutions
+						h4.section-detail.text-muted Weav resolve 
+							highlight complex data & integration scenarios 
+							std focusing 
+							std on business problems and 
+							highlight measurable 
+							std outcomes
+				div.row.text-center
+					div.col-md-4
+						span.fa-stack.fa-4x
+							i.fa.fa-circle.fa-stack-2x.text-highlight
+							i.fa.fa-thumbs-up.fa-stack-1x.fa-inverse
+						h4.service-heading Cooperative Delivery 	
+						h4.section-detail.text-muted Weav beleive 
+							highlight many minds 
+							std are better than 
+							highlight 1 
+							std ~ we bring your team together with ours to deap dive into the root problems and guide solutions
+					div.col-md-4
+						span.fa-stack.fa-4x
+							i.fa.fa-circle.fa-stack-2x.text-highlight
+							i.fa.fa-link.fa-stack-1x.fa-inverse
+						h4.service-heading Bridging Technology Teams	
+						h4.section-detail.text-muted Weav bridges the gap from your
+							highlight Technology Team ~~>> Sales, Marketing and Business Teams
+							std understanding your IT requirements to drive business outcomes.
+					div.col-md-4
+						span.fa-stack.fa-4x
+							i.fa.fa-circle.fa-stack-2x.text-highlight
+							i.fa.fa-cloud.fa-stack-1x.fa-inverse
+						h4.service-heading Delivery Strategy
+						h4.section-detail.text-muted Weav can successfully adapt 
+							highlight Agile Delivery processes 
+							std for your entire team; with proven success in 
+							highlight Agency Teams and dynamic industries.
+					// div.col-md-4
+					// 	span.fa-stack.fa-4x
+					// 		i.fa.fa-circle.fa-stack-2x.text-highlight
+					// 		i.fa.fa-cloud.fa-stack-1x.fa-inverse
+					// 	h4.service-heading SaaS Driven Solutions
+					// 	h4.section-detail.text-muted Weav won't reinvent the wheel, where we can recommend a 
+					// 		highlight SaaS 
+					// 		std based solution we will as we understand long term support and 
+					// 		highlight reliability 
+					// 		std are paramount to your success.
+
+		// section(id="partner")
+		// 	div.container
+		// 		div.row
+		// 			div.col-lg-12.text-center
+		// 				h1.section-heading.text-primary Proven Partner
+		// 				h4.section-detail.text-muted Weav proud partners of.
+		// 		div.row.text-center
+		// 			div.col-md-4.text-center
+		// 				img(src='images/partner/AWS-Logo_Nov-2017-Update.png')
+		// 			div.col-md-4.text-center
+		// 				img(src='images/partner/google-partners-2x.png')
+		// 			div.col-md-4.text-center
+		// 				img(src='images/partner/salesforce_partnerlogo_vert_space.png')
+						
+
+		section(id="workshop")
+			div.container
+				div.row
+					div.col-md-12.text-center
+						h1.section-detail.intro-text.text-inverse Low-Fi approach for Hi-Fi outcomes
+						h3.section-detail.intro-text.text-inverse.d-none.d-sm-none.d-md-block It's amazing what we discover in a room of your people and a white-board.
+						//a.btn.btn-primary(href="#")
+						//	| Learn about our Approach
+						
+
+		// section(id="contact")
+		// 	div.container
+		// 		div.row
+		// 			div.col-md-12.text-center
+		// 				h1.text-primary Contact
+		// 		div.row
+		// 			div.col-md-6.text-center
+		// 					img(src="https://maps.googleapis.com/maps/api/staticmap?center=Melbourne,Melbourne,Vic&zoom=14&size=400x350&maptype=roadmap")
+		// 			div.col-md-6.text-center
+		// 				h4.text-muted Melbourne
+		// 				h4.text-muted Victoria, Australia, 3000
+		// 				p.text-muted 0417 577 369
+		// 				p.text-muted	#[a(href="mailto:info@weavsolutions.com") info@weavsolutions.com]
+		// 				ul.list-inline.social-buttons
+		// 					// li 
+		// 					// 	a(href="#")
+		// 					// 		i.fa.fa-twitter
+		// 					// li
+		// 					// 	a(href="#")
+		// 					// 		i.fa.fa-instagram
+		// 					li 
+		// 						a(href="#")
+		// 							i.fa.fa-linkedin
+		footer
+			div.container
+				div.row
+					div.col-md-12.text-right
+						span.copyright Weav Solutions &copy; 2018
+
+	script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
+	script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous")
+	script(src="javascripts/classie.js")
+	script(src="javascripts/cbpAnimatedHeader.js")
+	script(src="javascripts/agency.js")
+
+
+	//- script(src="javascripts/jquery.js")
+	//- script(src="javascripts/util.js")
+	//- script(src="bootstrap/js/bootstrap.min.js")
+	//- script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
+	//- script(src="javascripts/classie.js")
+	//- script(src="javascripts/cbpAnimatedHeader.js")
+	//- script(src="javascripts/jqBootstrapValidation.js")
+	//- script(src="javascripts/agency.js")
+
