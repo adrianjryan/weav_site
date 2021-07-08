@@ -795,7 +795,7 @@ section#about_header {
 
 section#consultant_header {
     background-color: #eaeaea;
-    background-image: url(../images/banner/adrian-ryan-banner.png);
+    //background-image: url(../images/banner/adrian-ryan-banner.png);
     background-position: left;
     //background-size: 20em;
     background-repeat: no-repeat;
